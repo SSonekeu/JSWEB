@@ -15,12 +15,30 @@ var mapOptions = {
     center: new naver.maps.LatLng(37.2953501, 126.985921),
     zoom: 10
 };
+
 var map = new naver.maps.Map('map', mapOptions);
+
 var makerOptions = {
   position: new naver.maps.LatLng(37.2953501, 126.985921),
   map: map
 };
-var marker = new naver.maps.Marker(marker)
+
+var marker = new naver.maps.Marker(markerOptions)
+
+var btns = $(".buttons > input");
+btns.on("click", function(e) {
+    e.preventDefault();
+
+    var mapTypeId = this.id;
+
+    if (map.getMapTypeId() !== naver.maps.MapTypeId[mapTypeId]) {
+        map.setMapTypeId(naver.maps.MapTypeId[mapTypeId]);
+
+        btns.removeClass("control-on");
+        $(this).addClass("control-on");
+    }
+});
+
 </script>
 </body>
 </html>
