@@ -14,11 +14,12 @@
 }
 .day1{
   padding-top:20px;
-  text-align:center;  
+  text-align:center;
+  background-image: url("별배경.jpg");  
 }
 .day1 h3 {
   font-size:1.2em;
-  color:#666;
+  color: rgb(0, 255, 242);
 }
 .accent{
   margin-left:10px;
@@ -27,7 +28,7 @@
 	font-family: 'Jua', sans-serif;
 	font-weight:bold;
   font-size:3.5em;
-  color:#222;
+  color:rgb(0, 255, 242);
 }
 .bar {
 	width:100%;
@@ -47,10 +48,17 @@
   list-style: none;
   border-bottom:2px dashed red;
   height:60px;
+  background-color: lightsalmon;
+}
+.day2 ul:first-child {
+  list-style: none;
+  border-bottom:2px dashed red;
+  height:60px;
+  background-color: lightskyblue;
 }
 .day2 ul:last-child {
   border-bottom:none;
-  background-color: seagreen;
+  background-color: lightseagreen;
 }
 .item-title {
   float:left;
