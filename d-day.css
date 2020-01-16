@@ -45,11 +45,12 @@
 }
 .day2 ul {
   list-style: none;
-  border-bottom:1px dashed #ccc;
+  border-bottom:2px dashed red;
   height:60px;
 }
 .day2 ul:last-child {
-	border-bottom:none;
+  border-bottom:none;
+  background-color: seagreen;
 }
 .item-title {
   float:left;
@@ -66,3 +67,4 @@
   text-align:right;
   line-height:60px;
 }
+© 2020 GitHub, Inc.
