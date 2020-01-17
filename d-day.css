@@ -15,7 +15,7 @@
 .day1{
   padding-top:20px;
   text-align:center;
-  background-image: url("별배경.jpg");  
+  background-image: url("배경화면.jpg");  
 }
 .day1 h3 {
   font-size:1.2em;
@@ -46,19 +46,26 @@
 }
 .day2 ul {
   list-style: none;
-  border-bottom:2px dashed red;
+  /*border-bottom:2px dashed red;*/
   height:60px;
   background-color: lightsalmon;
 }
 .day2 ul:first-child {
   list-style: none;
-  border-bottom:2px dashed red;
   height:60px;
   background-color: lightskyblue;
 }
 .day2 ul:last-child {
   border-bottom:none;
   background-color: lightseagreen;
+}
+.day2 input {
+    background-color: lightblue;
+}
+.day2 button {
+    font-size: 0.1em;
+    padding: 0.05cm;
+    background-color: lightblue;
 }
 .item-title {
   float:left;
@@ -69,10 +76,9 @@
 }
 .item-date {
   float:left;
-  margin-left:60px;
+  /*margin-left:60px;*/
   font-size:1.2em;
   color:#222;
   text-align:right;
   line-height:60px;
 }
-© 2020 GitHub, Inc.

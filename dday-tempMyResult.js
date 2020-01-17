@@ -22,3 +22,8 @@ function calcDate(ChooseDay) {
     var day = Fday.getDate();
     document.querySelector("#date" + ChooseDay).innerText = year + "-" + (month+1) + "-" + day;
 }
+
+function SDay() {
+    var day = document.querySelector("#sooneung");
+    /*document.write(day.value)*/
+}
