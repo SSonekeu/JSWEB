@@ -48,12 +48,13 @@
   list-style: none;
   /*border-bottom:2px dashed red;*/
   height:60px;
-  background-color: lightsalmon;
-}
-.day2 ul:first-child {
-  list-style: none;
-  height:60px;
   background-color: lightskyblue;
+}
+.day2 ul p {
+  list-style: none;
+  height:40px;
+  text-align: center;
+  background-color: lightsalmon;
 }
 .day2 ul:last-child {
   border-bottom:none;
