@@ -32,11 +32,11 @@
 }
 .bar {
 	width:100%;
-	margin:60px auto 0 auto;
+	margin:0px auto 0 auto;
 	padding-left:15px;
 	height:40px;	
 	background:#747474;
-	color:#fff;
+	color:lightgreen;
 	font-size:1.2em;
 	line-height:40px;
 }
@@ -55,6 +55,14 @@
   height:40px;
   text-align: center;
   background-color: lightsalmon;
+}
+.day2 ul h1 {
+  float:left;
+  /*margin-left:60px;*/
+  font-size:1.2em;
+  color:#222;
+  text-align:right;
+  line-height:60px;
 }
 .day2 ul:last-child {
   border-bottom:none;
@@ -77,9 +85,26 @@
 }
 .item-date {
   float:left;
+  margin-left:60px;
+  font-size:1.2em;
+  color:#222;
+  text-align:right;
+  line-height:60px;
+}.item-dateInput {
+  float:left;
   /*margin-left:60px;*/
   font-size:1.2em;
   color:#222;
   text-align:right;
   line-height:60px;
+}
+.day3 {
+  width:420px;
+  margin:20px auto 20px auto;
+}
+.day3 ul {
+  list-style: none;
+  /*border-bottom:2px dashed red;*/
+  height:60px;
+  background-color: lightskyblue;
 }
