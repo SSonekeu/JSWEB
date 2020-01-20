@@ -64,10 +64,10 @@
   text-align:right;
   line-height:60px;
 }
-.day2 ul:last-child {
+/*.day2 ul:last-child {
   border-bottom:none;
   background-color: lightseagreen;
-}
+}*/
 .day2 input {
     background-color: lightblue;
 }
@@ -90,7 +90,8 @@
   color:#222;
   text-align:right;
   line-height:60px;
-}.item-dateInput {
+}
+.item-dateInput {
   float:left;
   /*margin-left:60px;*/
   font-size:1.2em;
@@ -98,6 +99,15 @@
   text-align:right;
   line-height:60px;
 }
+.item-Dplus {
+    float:left;
+    margin-left:60px;
+    font-size:1.2em;
+    color:#222;
+    text-align:right;
+    line-height:60px;
+    background-color: lightsalmon;
+  }
 .day3 {
   width:420px;
   margin:20px auto 20px auto;

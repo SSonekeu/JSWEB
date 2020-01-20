@@ -26,7 +26,8 @@ calcDate(365);
 
 function calcDate(ChooseDay) {
     if(Future - ChooseDay <= 0) {
-        document.querySelector("#date" + ChooseDay).innerHTML = "<p>이미 지남 ㅅㄱ</p>";
+        document.querySelector("#date" + ChooseDay).className = "item-Dplus";
+        document.querySelector("#date" + ChooseDay).innerText = "이미 지남 ㅅㄱ";
         return;
     }
     var future = toSD - ChooseDay * (1000 * 60 * 60 * 24);
